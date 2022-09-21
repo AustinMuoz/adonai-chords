@@ -2,10 +2,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
 
 
+
 :root {
     --Main-font-family: 'Roboto Mono', monospace;
     --colorOrange: #de4600;
-    --sum-px: 8px;
+    --sum-px: 3px;
     --fontSize: calc(14px + var(--sum-px));
     --note-left: calc(9px + var(--sum-px));
     --note-s-left: calc(18px + var(--sum-px));
@@ -18,14 +19,14 @@
     --note-sus2-left: calc(45px + var(--sum-px));
     --note-sus4-left: calc(45px + var(--sum-px));
 
-    --top-before: calc(-16px - (var(--sum-px)/16));
+    --top-before: calc(-16px - (var(--sum-px)/4));
   }
 
 .information{
     background-color: #ebebeb;
     color: #313131;
     padding: 50px;
-    width: 600px;
+    max-width: 600px;
 }
 
 h1{
@@ -38,11 +39,23 @@ h1{
 
 .content-separator{
     background-color: #f5f5f5;
-    padding-left: 50px;
+    padding-left: 0px;
+    padding-right: 0px;
     padding-top: 50px;
     border-top: #e6b995;
     border-top-style: solid;
     max-width: 100%;
+}
+
+.chords{
+    max-width: 1920px;
+}
+
+.col-sm{
+    border-left: #b89478;
+    border-right: #b89478;
+    border-left-style: solid;
+    border-right-style: solid;
 }
 
 .video-yt{
