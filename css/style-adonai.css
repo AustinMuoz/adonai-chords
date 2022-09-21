@@ -37,19 +37,19 @@ h1{
     margin-bottom: 10px;
 }
 
-.content-separator{
+.content-chords{
     background-color: #f5f5f5;
     padding-left: 0px;
     padding-right: 0px;
-    padding-top: 50px;
+    padding-top: 10px;
     border-top: #e6b995;
     border-top-style: solid;
     max-width: 100%;
 }
 
-.chords{
+/* .chords{
     max-width: 1920px;
-}
+} */
 
 .col-sm{
     border-left: #b89478;
