@@ -12,6 +12,7 @@
     --note-s-left: calc(18px + var(--sum-px));
     --note-m-left: calc(18px + var(--sum-px));
     --note-b-left: calc(18px + var(--sum-px));
+    --note-7-left: calc(18px + var(--sum-px));
     --note-sm-left: calc(27px + var(--sum-px));
     --note-m7-left: calc(27px + var(--sum-px));
     --note-s7-left: calc(27px + var(--sum-px));
@@ -47,8 +48,9 @@ h1{
     padding-right: 0px;
     padding-top: 2px;
     margin-top: 10px;
-    border: #de4600;
+    border-top: #de4600;
     border-top-style: solid;
+    border-bottom:#3f3f3f
     border-bottom-style: solid;
     border-width: 5px;
     max-width: 100%;
@@ -129,23 +131,7 @@ p.note{
 }
 
 
-.notes-m{
-    color: var(--colorOrange);
-    font-family: var(--Main-font-family);
-    font-size: var(--fontSize);
-    font-weight: 600;
-    margin-left: -17px;
-}
-
-.notes-s{
-    color: var(--colorOrange);
-    font-family: var(--Main-font-family);
-    font-size: var(--fontSize);
-    font-weight: 600;
-    margin-left: -17px;
-}
-
-.notes-b{
+.notes-b, .notes-s, .notes-m, .notes-7{
     color: var(--colorOrange);
     font-family: var(--Main-font-family);
     font-size: var(--fontSize);
@@ -448,6 +434,58 @@ br{
     top: var(--top-before);
     left: var(--note-sm-left);
 }
+
+/* Escalas 7*/
+.C7::before{
+    content: "C7";
+    position: relative;
+    top: var(--top-before);
+    left: var(--note-7-left);
+}
+
+.D7::before{
+    content: "D7";
+    position: relative;
+    top: var(--top-before);
+    left: var(--note-7-left);
+}
+
+.E7::before{
+    content: "E7";
+    position: relative;
+    top: var(--top-before);
+    left: var(--note-7-left);
+}
+
+.F7::before{
+    content: "F7";
+    position: relative;
+    top: var(--top-before);
+    left: var(--note-7-left);
+}
+
+.G7::before{
+    content: "G7";
+    position: relative;
+    top: var(--top-before);
+    left: var(--note-7-left);
+}
+
+.A7::before{
+    content: "A7";
+    position: relative;
+    top: var(--top-before);
+    left: var(--note-7-left);
+}
+
+
+.B7::before{
+    content: "B7";
+    position: relative;
+    top: var(--top-before);
+    left: var(--note-7-left);
+}
+
 
 /* Escalas m7*/
 .Cm7::before{
