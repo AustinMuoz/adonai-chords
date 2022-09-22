@@ -67,7 +67,7 @@ h1{
 
 .video-yt{
     max-width: 500x;
-    max-height: 370px;
+    max-height: 370px !important;
     align-content: center;
     margin-top: 10px;
     /**/
