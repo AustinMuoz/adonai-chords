@@ -37,7 +37,7 @@ h1{
     padding-top: 50px;
     color: #3f3f3f;
     font-family: var(--Main-font-family);
-    font-weight: 900;
+    font-weight: 700;
     margin-bottom: 10px;
 }
 
@@ -117,14 +117,14 @@ p.note{
     color: var(--colorOrange);
     font-family: var(--Main-font-family);
     font-size: var(--fontSize);
-    font-weight: 900;
+    font-weight: 700;
 }
 
 .notes {
     color: var(--colorOrange);
     font-family: var(--Main-font-family);
     font-size: var(--fontSize);
-    font-weight: 900;
+    font-weight: 700;
     margin-left: -8px;
 }
 
@@ -133,7 +133,7 @@ p.note{
     color: var(--colorOrange);
     font-family: var(--Main-font-family);
     font-size: var(--fontSize);
-    font-weight: 900;
+    font-weight: 700;
     margin-left: -17px;
 }
 
@@ -141,7 +141,7 @@ p.note{
     color: var(--colorOrange);
     font-family: var(--Main-font-family);
     font-size: var(--fontSize);
-    font-weight: 900;
+    font-weight: 700;
     margin-left: -17px;
 }
 
@@ -149,7 +149,7 @@ p.note{
     color: var(--colorOrange);
     font-family: var(--Main-font-family);
     font-size: var(--fontSize);
-    font-weight: 900;
+    font-weight: 700;
     margin-left: -17px;
 }
 
@@ -158,7 +158,7 @@ p.note{
     color: var(--colorOrange);
     font-family: var(--Main-font-family);
     font-size: var(--fontSize);
-    font-weight: 900;
+    font-weight: 700;
     margin-left: -25px;
 }
 
@@ -167,7 +167,7 @@ p.note{
     color: var(--colorOrange);
     font-family: var(--Main-font-family);
     font-size: var(--fontSize);
-    font-weight: 900;
+    font-weight: 700;
     margin-left: -33px;
 }
 
@@ -175,7 +175,7 @@ p.note{
     color: var(--colorOrange);
     font-family: var(--Main-font-family);
     font-size: var(--fontSize);
-    font-weight: 900;
+    font-weight: 700;
     margin-left: -45px;
 }
 
